@@ -202,6 +202,7 @@
           </tr>
           </thead>
           <tbody>
+          {% for ve in libros %}
           
           <tr>
           
@@ -212,6 +213,7 @@
             <td><a href="{% url 'form_mod_libro' ve.isbn %}">Modificar</a></td>
             <td><a href="{%url 'form_mod_libro' ve.isbn %}">Eliminar</a></td>
           </tr>
+          {% endfor %}
          
           </tbody>
         </table>
