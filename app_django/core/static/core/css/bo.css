@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: blue;
+    text-align: center;
+}
+
+#jj{
+    color: white;
+    text-align: center;
+}
+
+#aa{
+    background-color: lightslategray;
+}
+
+#hh{
+    color: white;
+}
+
+footer {
+	background-color:#1A1A1A;
+	height: 50%;
+  color: white;
+  padding: 15px;
+}
+
+.main1 { 
+  display:flex;
+  margin:0 auto;
+}
+
+a img:hover {
+    color: #fff;
+}
+
+#y{
+overflow: hidden;
+}
+
+#uu{
+    width: 1000px;
+    height: 500px;
+    text-decoration-color: black;
+    text-align: center;
+}
+
+#z{
+    text-align: center;
+}
+
+#mm{
+    font-family: "Latin Modern Roman 10";
+    font-style: oblique;
+    text-decoration-color: white;
+    text-align: center;
+}
+
+#mmm{
+    text-align: center;
+    color: white;
+    
+}
+
