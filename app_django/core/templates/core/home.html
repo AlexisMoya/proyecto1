@@ -211,7 +211,7 @@
             <td>{{ve.autor}}</td>
             <td>{{ve.descripcion}}</td>
             <td><a href="{% url 'form_mod_libro' ve.isbn %}">Modificar</a></td>
-            <td><a href="{%url 'form_mod_libro' ve.isbn %}">Eliminar</a></td>
+            <td><a href="{% url 'form_mod_libro' ve.isbn %}">Eliminar</a></td>
           </tr>
           {% endfor %}
          
