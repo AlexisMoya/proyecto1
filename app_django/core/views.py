@@ -27,7 +27,7 @@ def form_mod_libro(request, id):
     datos = {
         'form': LibroForm(instance=libro)
     }
-    return render(request, 'core/form_mod_libro.html', datos)
+    
 
     if request.method== 'POST':
         formulario = LibroForm(data=request.POST,instance=libro)
