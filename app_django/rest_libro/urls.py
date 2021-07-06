@@ -1,5 +1,4 @@
 from django.urls import path
-from rest_libro import views
 from rest_libro.views import lista_libros, detalle_libro
 from rest_libro.viewslogin import login
 urlpatterns =[
